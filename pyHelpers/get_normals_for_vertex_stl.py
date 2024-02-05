@@ -55,7 +55,7 @@ def read_stl(output_vertices=False, filename="", output_facet_normal=True, int_v
 
 if __name__ == "__main__":
 
-    vertex, normal = read_stl(filename="493_STL_mRCA.stl", int_vertex=np.asarray([-58.434,-552.182,236.319]))
+    vertex, normal = read_stl(filename="artery1.stl", int_vertex=np.asarray([-58.434,-552.182,236.319]))
     
     print(f'X: {180*np.arccos(np.dot(np.asarray([1,0,0]),normal)) / 3.1415169}')
     print(f'Y: {180*np.arccos(np.dot(np.asarray([0,1,0]),normal)) / 3.1415169}')

@@ -1,0 +1,129 @@
+[MpiManager] Sucessfully initialized, numThreads=4
+[ThreadPool] Sucessfully initialized, numThreads=1
+[UnitConverter] ----------------- UnitConverter information -----------------
+[UnitConverter] -- Parameters:
+[UnitConverter] Resolution:                       N=              30
+[UnitConverter] Lattice velocity:                 latticeU=       0.00529562
+[UnitConverter] Lattice relaxation frequency:     omega=          1.96078
+[UnitConverter] Lattice relaxation time:          tau=            0.51
+[UnitConverter] Characteristical length(m):       charL=          0.003
+[UnitConverter] Characteristical speed(m/s):      charU=          0.31831
+[UnitConverter] Phys. kinematic viscosity(m^2/s): charNu=         2.00361e-05
+[UnitConverter] Phys. density(kg/m^d):            charRho=        998.2
+[UnitConverter] Characteristical pressure(N/m^2): charPressure=   0
+[UnitConverter] Mach number:                      machNumber=     0.00917228
+[UnitConverter] Reynolds number:                  reynoldsNumber= 47.6605
+[UnitConverter] Knudsen number:                   knudsenNumber=  0.00019245
+[UnitConverter] 
+[UnitConverter] -- Conversion factors:
+[UnitConverter] Voxel length(m):                  physDeltaX=     0.0001
+[UnitConverter] Time step(s):                     physDeltaT=     1.66367e-06
+[UnitConverter] Velocity factor(m/s):             physVelocity=   60.1082
+[UnitConverter] Density factor(kg/m^3):           physDensity=    998.2
+[UnitConverter] Mass factor(kg):                  physMass=       9.982e-10
+[UnitConverter] Viscosity factor(m^2/s):          physViscosity=  0.00601082
+[UnitConverter] Force factor(N):                  physForce=      0.0360649
+[UnitConverter] Pressure factor(N/m^2):           physPressure=   3.60649e+06
+[UnitConverter] -------------------------------------------------------------
+[STLreader] Voxelizing ...
+[STLmesh] nTriangles=200244; maxDist2=2.47285e-08
+[STLmesh] minPhysR(StlMesh)=(-7.51023e-09,-0.00199878,-0.00199759); maxPhysR(StlMesh)=(0.06,0.00199878,0.002)
+[Octree] radius=0.0512; center=(0.029975,-2.5e-05,-2.37962e-05)
+[STLreader] voxelSize=0.0001; stlSize=0.001
+[STLreader] minPhysR(VoxelMesh)=(2.50001e-05,-0.001975,-0.0019738); maxPhysR(VoxelMesh)=(0.059925,0.001925,0.0019262)
+[STLreader] Voxelizing ... OK
+[prepareGeometry] Prepare Geometry ...
+[SuperGeometry3D] cleaned 0 outer boundary voxel(s)
+[SuperGeometry3D] cleaned 0 outer boundary voxel(s)
+[SuperGeometry3D] cleaned 0 inner boundary voxel(s) of Type 3
+[SuperGeometryStatistics3D] updated
+[SuperGeometry3D] the model is correct!
+[CuboidGeometry3D] ---Cuboid Stucture Statistics---
+[CuboidGeometry3D]  Number of Cuboids: 	32
+[CuboidGeometry3D]  Delta  (min): 		0.0001
+[CuboidGeometry3D]         (max): 		0.0001
+[CuboidGeometry3D]  Ratio  (min): 		0.5
+[CuboidGeometry3D]         (max): 		2
+[CuboidGeometry3D]  Nodes  (min): 		21964
+[CuboidGeometry3D]         (max): 		33516
+[CuboidGeometry3D]  Weight (min): 		17708
+[CuboidGeometry3D]         (max): 		27284
+[CuboidGeometry3D] --------------------------------
+[SuperGeometryStatistics3D] materialNumber=0; count=220825; minPhysR=(-7.49999e-05,-0.002075,-0.0020738); maxPhysR=(0.060025,0.002025,0.0020262)
+[SuperGeometryStatistics3D] materialNumber=1; count=723339; minPhysR=(2.50001e-05,-0.001975,-0.0019738); maxPhysR=(0.059925,0.001925,0.0019262)
+[SuperGeometryStatistics3D] materialNumber=2; count=97622; minPhysR=(-7.49999e-05,-0.002075,-0.0020738); maxPhysR=(0.060025,0.002025,0.0020262)
+[SuperGeometryStatistics3D] materialNumber=3; count=1255; minPhysR=(-7.49999e-05,-0.001975,-0.0019738); maxPhysR=(-7.49999e-05,0.001925,0.0019262)
+[SuperGeometryStatistics3D] materialNumber=4; count=1255; minPhysR=(0.060025,-0.001975,-0.0019738); maxPhysR=(0.060025,0.001925,0.0019262)
+[prepareLattice] Prepare Lattice ...
+[prepareLattice] Prepare Lattice ... OK
+[prepareParticles] Prepare Particles ...
+[SuperParticleSystem] ---SuperParticleSystem---
+[SuperParticleSystem:1] BlockParticleSystem 0 (1,0): nop=14729
+[SuperParticleSystem:1] BlockParticleSystem 3 (1,1): nop=0
+[SuperParticleSystem:1] BlockParticleSystem 6 (1,2): nop=0
+[SuperParticleSystem:1] BlockParticleSystem 11 (1,3): nop=0
+[SuperParticleSystem:1] BlockParticleSystem 14 (1,4): nop=0
+[SuperParticleSystem:1] BlockParticleSystem 18 (1,5): nop=0
+[SuperParticleSystem:1] BlockParticleSystem 23 (1,6): nop=0
+[SuperParticleSystem:1] BlockParticleSystem 29 (1,7): nop=0
+[SuperParticleSystem:2] BlockParticleSystem 2 (2,0): nop=0
+[SuperParticleSystem:2] BlockParticleSystem 5 (2,1): nop=0
+[SuperParticleSystem:2] BlockParticleSystem 8 (2,2): nop=0
+[SuperParticleSystem:2] BlockParticleSystem 13 (2,3): nop=0
+[SuperParticleSystem:2] BlockParticleSystem 16 (2,4): nop=0
+[SuperParticleSystem:2] BlockParticleSystem 19 (2,5): nop=0
+[SuperParticleSystem:2] BlockParticleSystem 22 (2,6): nop=0
+[SuperParticleSystem:2] BlockParticleSystem 24 (2,7): nop=0
+[SuperParticleSystem:3] BlockParticleSystem 4 (3,0): nop=0
+[SuperParticleSystem:3] BlockParticleSystem 7 (3,1): nop=0
+[SuperParticleSystem:3] BlockParticleSystem 10 (3,2): nop=0
+[SuperParticleSystem:3] BlockParticleSystem 15 (3,3): nop=0
+[SuperParticleSystem:3] BlockParticleSystem 21 (3,4): nop=0
+[SuperParticleSystem:3] BlockParticleSystem 26 (3,5): nop=0
+[SuperParticleSystem:3] BlockParticleSystem 27 (3,6): nop=0
+[SuperParticleSystem:3] BlockParticleSystem 30 (3,7): nop=0
+[SuperParticleSystem:0] BlockParticleSystem 1 (0,0): nop=15271
+[SuperParticleSystem:0] BlockParticleSystem 9 (0,1): nop=0
+[SuperParticleSystem:0] BlockParticleSystem 12 (0,2): nop=0
+[SuperParticleSystem:0] BlockParticleSystem 17 (0,3): nop=0
+[SuperParticleSystem:0] BlockParticleSystem 20 (0,4): nop=0
+[SuperParticleSystem:0] BlockParticleSystem 25 (0,5): nop=0
+[SuperParticleSystem:0] BlockParticleSystem 28 (0,6): nop=0
+[SuperParticleSystem:0] BlockParticleSystem 31 (0,7): nop=0
+[SuperParticleSystem] -------------------------
+[prepareParticles] Prepare Particles ... OK
+[Timer] 
+[Timer] ----------------Summary:Timer----------------
+[Timer] measured time (rt) : 0.448s
+[Timer] measured time (cpu): 0.448s
+[Timer] ---------------------------------------------
+[main] starting simulation...
+[setBoundaryValues] step=0; maxVel=0
+[Timer] step=0; percent=0; passedTime=0.123; remTime=73933; MLUPs=0
+[getResults] 1.49167e-154
+[LatticeStatistics] step=0; t=0; uMax=1.49167e-154; avEnergy=0; avRho=1
+[SuperPlaneIntegralFluxVelocity3D] regionName=inflow; regionSize[m^2]=1.176e-05; volumetricFlowRate[ml/s]=0; meanVelocity[m/s]=0
+[SuperPlaneIntegralFluxPressure3D] regionName=inflow; regionSize[m^2]=1.176e-05; force[N]=0; meanPressure[mmHg]=0
+[SuperPlaneIntegralFluxVelocity3D] regionName=outflow; regionSize[m^2]=1.176e-05; volumetricFlowRate[ml/s]=0; meanVelocity[m/s]=0
+[SuperPlaneIntegralFluxPressure3D] regionName=outflow; regionSize[m^2]=1.176e-05; force[N]=0; meanPressure[mmHg]=0
+[Timer] step=601; percent=0.0999864; passedTime=11.613; remTime=11603; MLUPs=43.0728
+[getResults] 0
+[LatticeStatistics] step=601; t=0.000999864; uMax=0; avEnergy=0; avRho=1
+[SuperPlaneIntegralFluxVelocity3D] regionName=inflow; regionSize[m^2]=1.176e-05; volumetricFlowRate[ml/s]=0; meanVelocity[m/s]=0
+[SuperPlaneIntegralFluxPressure3D] regionName=inflow; regionSize[m^2]=1.176e-05; force[N]=0; meanPressure[mmHg]=0
+[SuperPlaneIntegralFluxVelocity3D] regionName=outflow; regionSize[m^2]=1.176e-05; volumetricFlowRate[ml/s]=0; meanVelocity[m/s]=0
+[SuperPlaneIntegralFluxPressure3D] regionName=outflow; regionSize[m^2]=1.176e-05; force[N]=0; meanPressure[mmHg]=0
+[Timer] step=1202; percent=0.199973; passedTime=23.113; remTime=11535; MLUPs=43.0316
+[getResults] 0
+[LatticeStatistics] step=1202; t=0.00199973; uMax=0; avEnergy=0; avRho=1
+[SuperPlaneIntegralFluxVelocity3D] regionName=inflow; regionSize[m^2]=1.176e-05; volumetricFlowRate[ml/s]=0; meanVelocity[m/s]=0
+[SuperPlaneIntegralFluxPressure3D] regionName=inflow; regionSize[m^2]=1.176e-05; force[N]=0; meanPressure[mmHg]=0
+[SuperPlaneIntegralFluxVelocity3D] regionName=outflow; regionSize[m^2]=1.176e-05; volumetricFlowRate[ml/s]=0; meanVelocity[m/s]=0
+[SuperPlaneIntegralFluxPressure3D] regionName=outflow; regionSize[m^2]=1.176e-05; force[N]=0; meanPressure[mmHg]=0
+[Timer] step=1803; percent=0.299959; passedTime=34.646; remTime=11515.6; MLUPs=42.9159
+[getResults] 0
+[LatticeStatistics] step=1803; t=0.00299959; uMax=0; avEnergy=0; avRho=1
+[SuperPlaneIntegralFluxVelocity3D] regionName=inflow; regionSize[m^2]=1.176e-05; volumetricFlowRate[ml/s]=0; meanVelocity[m/s]=0
+[SuperPlaneIntegralFluxPressure3D] regionName=inflow; regionSize[m^2]=1.176e-05; force[N]=0; meanPressure[mmHg]=0
+[SuperPlaneIntegralFluxVelocity3D] regionName=outflow; regionSize[m^2]=1.176e-05; volumetricFlowRate[ml/s]=0; meanVelocity[m/s]=0
+[SuperPlaneIntegralFluxPressure3D] regionName=outflow; regionSize[m^2]=1.176e-05; force[N]=0; meanPressure[mmHg]=0

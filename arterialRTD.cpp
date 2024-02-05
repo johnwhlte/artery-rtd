@@ -55,9 +55,7 @@ int main( int argc, char* argv[] )
 
   // Instantiation of the STLreader class
   // file name, voxel size in meter, stl unit in meter, outer voxel no., inner voxel no.
-  char stlDir[] = "geometry/";
-  strcat(stlDir,stlFileName);
-  STLreader<T> stlReader( stlDir, converter.getConversionFactorLength(), 0.001, 0, true );
+  STLreader<T> stlReader( stlFileName, converter.getConversionFactorLength(), conversionFactor, 0, true );
   IndicatorLayer3D<T> extendedDomain( stlReader, converter.getConversionFactorLength() );
 
   // Instantiation of a cuboidGeometry with weights
@@ -122,7 +120,7 @@ int main( int argc, char* argv[] )
      getResults( sLattice, converter, iT, superGeometry, timer, stlReader, superParticleSystem);
    }
 
-  for ( std::size_t iT = converter.getLatticeTime(fluidMaxPhysT); iT <= converter.getLatticeTime( fluidMaxPhysT + particleMaxPhysT); ++iT ) {
+  for ( std::size_t iT = converter.getLatticeTime(fluidMaxPhysT)+1; iT <= converter.getLatticeTime( fluidMaxPhysT + particleMaxPhysT); ++iT ) {
     // particles simulation starts after run up time is over
     particleManager.execute<
       couple_lattice_to_particles<T,DESCRIPTOR,PARTICLETYPE>,
